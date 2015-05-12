@@ -68,7 +68,7 @@
             _sendCodeLabel.userInteractionEnabled = YES;
             
             _sendCodeLabel.text = @"获取验证码";
-            _sendCodeLabel.textColor = UIColorFromRGB(0x0099cc);
+            _sendCodeLabel.textColor = [UIColor blueColor];
             
             remainSeconds = kCountdownSeconds;
         }
@@ -78,7 +78,7 @@
             _sendCodeLabel.userInteractionEnabled = NO;
             
             _sendCodeLabel.text = nil;
-            _sendCodeLabel.textColor = UIColorFromRGB(0xa9a9a9);
+            _sendCodeLabel.textColor = [UIColor lightGrayColor];
             [self startTimer];
             
             [self onTimer:nil];
@@ -89,7 +89,7 @@
             _sendCodeLabel.userInteractionEnabled = YES;
             
             _sendCodeLabel.text = @"重新获取";
-            _sendCodeLabel.textColor = UIColorFromRGB(0x0099cc);
+            _sendCodeLabel.textColor = [UIColor blueColor];
             
             remainSeconds = kCountdownSeconds;
         }

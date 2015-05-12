@@ -9,6 +9,9 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/Qian100/VerifyCodeView"
+  
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+
   s.author            = { "huxiaoqiao" => "huxiaoqiao100@163.com" }
   
   s.platform     = :ios, "5.0"
